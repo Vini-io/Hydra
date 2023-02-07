@@ -1,0 +1,46 @@
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.about {
+    font-family: 'Montserrat';
+    max-width: 540px;
+    color: #fff;
+}
+
+.about h1 {
+    font-size: 3rem;
+}
+
+.about>h1>span {
+    color: #968EBE;
+}
+
+.about p {
+    font-size: 1.2rem;
+    font-weight: 200;
+}
+
+.about button {
+    margin-top: 20px;
+    font-weight: 500;
+    transition: .2s;
+    background-image: linear-gradient(to right, #968EBE, #bab5d1);
+}
+.about button:hover {
+    translate: 0 -5px;
+}
+
+
+.imageIntro {
+    overflow: hidden;
+    border-radius: 100px;
+    border-bottom-left-radius: 200px;
+    box-shadow: 0 0 1px 20px rgba(0, 0, 0, 0.1);
+}
+

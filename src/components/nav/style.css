@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&family=PT+Sans&display=swap');
 
 :root {
     --rdnormal: 20px;
 }
 
 nav {
+    position: fixed;
     width: 100%;
     height: 110px;
     display: flex;
@@ -27,10 +27,16 @@ ul {
 
 li {
     cursor: pointer;
-    margin: 0 30px;
+    margin: 0 25px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     color: #fff;
+    transition: .2s;
+    padding: 5px;
+}
+li:hover{
+    color: #857BB3;
+    translate: 0 -3px;
 }
 
 button {
@@ -51,4 +57,8 @@ button {
 
 .JoinHydra {
     background-image: linear-gradient(to right,#857BB3, #BEB5E6);
+}
+.JoinHydra:hover, .contact:hover{
+    transform: scale(1.1, 1.1);
+    transition: .2s;
 }
